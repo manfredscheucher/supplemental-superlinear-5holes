@@ -74,7 +74,7 @@ Let $P = A\cup B$ be an $\ell$-divided set with $|A|=5$, $|B|=6$, and with $A$ n
 
 To verify the statement, run
 
-python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 5 convA -1 testwedges 0
+```python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 5 convA -1 testwedges 0```
 
 Verification time: <2 hours.
 
@@ -88,19 +88,19 @@ Let $P = A\cup B$ be an $\ell$-divided set with no $\ell$-divided $5$-hole in $P
 
 To verify the statement for $|B|=4$ ($|P|=9$), run
 
-python program.py n 9 bytes 2 fp otypes09_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0
+```python program.py n 9 bytes 2 fp otypes09_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0```
 
 Verification time: <1 minute.
 
 To verify the statement for $|B|=5$ ($|P|=10$), run
 
-python program.py n 10 bytes 2 fp otypes10_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0
+```python program.py n 10 bytes 2 fp otypes10_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0```
 
 Verification time: <10 minutes.
 
 To verify the statement for $|B|=6$ ($|P|=11$), run
 
-python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0
+```python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 0```
 
 Verification time: <2 hours.
 
@@ -114,7 +114,7 @@ Let $P = A\cup B$ be an $\ell$-divided set with no $\ell$-divided $5$-hole in $P
 
 To verify the statement, run
 
-python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 6 convA 0 testwedges 1 nonconvexwedgeempty 0
+```python program.py n 11 bytes 2 fp otypes11_filtered.b16 sizeA 6 convA 0 testwedges 1 nonconvexwedgeempty 0```
 
 Verification time: <2 hours.
 
@@ -128,13 +128,13 @@ Let $P = A\cup B$ be an $\ell$-divided set with no $\ell$-divided $5$-hole in $P
 
 To verify the statement for $|A|=5$ ($|P|=9$), run
 
-python program.py n 9 bytes 2 fp otypes09_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 1
+```python program.py n 9 bytes 2 fp otypes09_filtered.b16 sizeA 5 convA +1 testwedges 1 nonconvexwedgeempty 1```
 
 Verification time: <1 minute.
 
 To verify the statement for $|A|=6$ ($|P|=10$), run
 
-python program.py n 10 bytes 2 fp otypes10_filtered.b16 sizeA 6 convA +1 testwedges 1 nonconvexwedgeempty 1
+```python program.py n 10 bytes 2 fp otypes10_filtered.b16 sizeA 6 convA +1 testwedges 1 nonconvexwedgeempty 1```
 
 Verification time: <30 minutes.
 
@@ -142,7 +142,7 @@ Verification time: <30 minutes.
 
 The program can also be run on the order types of six points (without additional parameters) to verify that $h_5(P) \in \{0,1,2,6\}$ for every point set $P$ with $|P| = 6$. To verify the statement, run
 
-python program.py n 6 bytes 1 fp otypes06.b08
+```python program.py n 6 bytes 1 fp otypes06.b08```
 
 Verification time: <1 second.
 
